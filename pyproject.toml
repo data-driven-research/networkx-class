@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "network-centrality"
+version = "0.1.0"
+description = ""
+authors = ["hp0404 <hryhorii.pavlenko@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.3.2"
+numpy = "1.19.3"
+networkx = "^2.5"
+jupyterlab = "^2.2.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
